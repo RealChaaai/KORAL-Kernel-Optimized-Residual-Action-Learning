@@ -1,0 +1,3122 @@
+[
+  {
+    "round": 0,
+    "candidate_scene": 12002,
+    "candidate_step": 12,
+    "length_requested": 16,
+    "labels_charged": 16,
+    "features": [
+      1.0,
+      0.011068616295233369,
+      0.07097873836755753,
+      0.787584125995636,
+      0.12708863615989685,
+      0.08609988540410995,
+      0.700257420539856,
+      0.0,
+      0.0,
+      0.0923076942563057,
+      1.0,
+      1.0,
+      0.011068616295233369
+    ],
+    "selection": {
+      "predicted_gain_per_action": 0.0,
+      "exploration_bonus": 0.10183341350585245,
+      "exploration": true,
+      "mode": "random"
+    },
+    "control_development": [
+      {
+        "seed": 30000,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 53,
+        "score": 0.60707672051214,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30001,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5970362994827642,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30002,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5586664423689394,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "trial_development": [
+      {
+        "seed": 30000,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 53,
+        "score": 0.60707672051214,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30001,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5970362994827642,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30002,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5586664423689394,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "paired_gain": 0.0,
+    "gain_per_action": 0.0,
+    "optimizer_steps_per_branch": 48,
+    "update_seconds": 0.48973383499969714,
+    "control_loss": [
+      0.010957646183669567,
+      0.011513537727296352
+    ],
+    "trial_loss": [
+      0.30462345480918884,
+      0.0925401970744133
+    ],
+    "retention_gate": {
+      "control": [
+        {
+          "weight": 1.0,
+          "utility": 1.11692647025993,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 49,
+              "score": 0.6020462197577645,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5569067274726833,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.5949441066685038,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 1.1198463952908697,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5837121996854983,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5585917548686512,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.6553919748088965,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.120141885740393,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5826630690561814,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.5664028863537784,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6530623306959356,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ],
+      "trial": [
+        {
+          "weight": 1.0,
+          "utility": 0.3746311909194458,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.6194607337172928,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 58,
+              "score": 2.7112473210444197e-06,
+              "peak_force": 15.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 90,
+              "score": 4.4188270727034955e-06,
+              "peak_force": 15.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 1.1229094042058543,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.6071665707595006,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6073865116174793,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 56,
+              "score": 0.6290879807108329,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.1211028303662618,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5965097163920031,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.5909674855737144,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 59,
+              "score": 0.6290652535282126,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ]
+    },
+    "terminal_recovery_success": false,
+    "action_count": 16
+  },
+  {
+    "round": 1,
+    "candidate_scene": 12000,
+    "candidate_step": 42,
+    "length_requested": 16,
+    "labels_charged": 7,
+    "features": [
+      1.0,
+      0.016647521406412125,
+      0.0676669254899025,
+      0.08428655564785004,
+      0.07750824093818665,
+      0.12747515738010406,
+      0.5026943683624268,
+      0.0,
+      0.0,
+      0.32307693362236023,
+      1.0,
+      1.0,
+      0.016647521406412125
+    ],
+    "selection": {
+      "predicted_gain_per_action": 0.0,
+      "exploration_bonus": 0.0511601901893847,
+      "exploration": true,
+      "mode": "random"
+    },
+    "control_development": [
+      {
+        "seed": 30003,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": false,
+        "steps": 130,
+        "score": 0.15254366579159706,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30004,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 52,
+        "score": 0.6469267387998436,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30005,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 50,
+        "score": 0.556975312987039,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "trial_development": [
+      {
+        "seed": 30003,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": false,
+        "steps": 130,
+        "score": 0.15254366579159706,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30004,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 52,
+        "score": 0.6469267387998436,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30005,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 50,
+        "score": 0.556975312987039,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "paired_gain": 0.0,
+    "gain_per_action": 0.0,
+    "optimizer_steps_per_branch": 21,
+    "update_seconds": 0.24711752999974124,
+    "control_loss": [
+      0.2956337034702301,
+      0.21687570214271545
+    ],
+    "trial_loss": [
+      0.28752073645591736,
+      0.08952207118272781
+    ],
+    "retention_gate": {
+      "control": [
+        {
+          "weight": 1.0,
+          "utility": 0.021948946688826524,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.12200069922281903,
+              "peak_force": 0.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.09894016229073299,
+              "peak_force": 0.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.10829333881884584,
+              "peak_force": 0.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 1.1198342553128573,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.5832244678732519,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 62,
+              "score": 0.6044490222128662,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 64,
+              "score": 0.6098403396067426,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.121940851817827,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.6068344807769345,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5938080965897231,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6284701999007507,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ],
+      "trial": [
+        {
+          "weight": 1.0,
+          "utility": 0.011954694271090485,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 89,
+              "score": 4.3604329311024784e-05,
+              "peak_force": 15.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.07698096629971926,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.10229584343732699,
+              "peak_force": 0.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 0.7506936938020145,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5807529318512841,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.11576833054093608,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.5638841446379971,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 0.7544808890120477,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5761177664033899,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.1812262958555102,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5598692729218151,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ]
+    },
+    "terminal_recovery_success": true,
+    "action_count": 7
+  },
+  {
+    "round": 2,
+    "candidate_scene": 12000,
+    "candidate_step": 12,
+    "length_requested": 16,
+    "labels_charged": 16,
+    "features": [
+      1.0,
+      0.006366395973600447,
+      0.042764849960803986,
+      0.6702812314033508,
+      0.15223422646522522,
+      0.08097183704376221,
+      0.6494871377944946,
+      0.0,
+      0.0,
+      0.0923076942563057,
+      1.0,
+      1.0,
+      0.006366395973600447
+    ],
+    "selection": {
+      "predicted_gain_per_action": 0.0,
+      "exploration_bonus": 0.036281185015288146,
+      "exploration": false,
+      "mode": "random"
+    },
+    "control_development": [
+      {
+        "seed": 30006,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 53,
+        "score": 0.6497492994571425,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30007,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 55,
+        "score": 0.6107101484556683,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30008,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": false,
+        "steps": 130,
+        "score": 0.20212415585364107,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "trial_development": [
+      {
+        "seed": 30006,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 53,
+        "score": 0.6497492994571425,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30007,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 55,
+        "score": 0.6107101484556683,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30008,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": false,
+        "steps": 130,
+        "score": 0.20212415585364107,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "paired_gain": 0.0,
+    "gain_per_action": 0.0,
+    "optimizer_steps_per_branch": 48,
+    "update_seconds": 0.6060713830001987,
+    "control_loss": [
+      0.4127025306224823,
+      0.10741954296827316
+    ],
+    "trial_loss": [
+      0.2582775950431824,
+      0.11941094696521759
+    ],
+    "retention_gate": {
+      "control": [
+        {
+          "weight": 1.0,
+          "utility": 0.006622102411111823,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 123,
+              "score": 5.0024043512860105e-05,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.025273704700652044,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.07400780742251244,
+              "peak_force": 6.719551357277699,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 0.7586931098902728,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.6063722073842545,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.2193659496949642,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5546584912748733,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 0.7548882085307183,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.588691079531066,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.1810386711957217,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.5535933772339866,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ],
+      "trial": [
+        {
+          "weight": 1.0,
+          "utility": 0.024863808361451134,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.09698846201182851,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.15034843994653455,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.12562022346340393,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 0.755249419000374,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 50,
+              "score": 0.6263198278657394,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.13317071347148787,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 75,
+              "score": 0.5692507436683831,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.115003201816973,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.6231270532814612,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.5487951707819978,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5531258031911368,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ]
+    },
+    "terminal_recovery_success": false,
+    "action_count": 16
+  },
+  {
+    "round": 3,
+    "candidate_scene": 12002,
+    "candidate_step": 30,
+    "length_requested": 16,
+    "labels_charged": 16,
+    "features": [
+      1.0,
+      0.008336512255482376,
+      0.07493728399276733,
+      0.6755859851837158,
+      0.07012328505516052,
+      0.4519541561603546,
+      0.3001202642917633,
+      1.0,
+      1.0,
+      0.23076923191547394,
+      1.0,
+      1.0,
+      0.008336512255482376
+    ],
+    "selection": {
+      "predicted_gain_per_action": 0.0,
+      "exploration_bonus": 0.08000686153614583,
+      "exploration": false,
+      "mode": "random"
+    },
+    "control_development": [
+      {
+        "seed": 30009,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 54,
+        "score": 0.5969740927380691,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30010,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5482673744660299,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30011,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 63,
+        "score": 0.5819961769539251,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "trial_development": [
+      {
+        "seed": 30009,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 54,
+        "score": 0.5969740927380691,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30010,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 51,
+        "score": 0.5482673744660299,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      },
+      {
+        "seed": 30011,
+        "split": "development",
+        "disturbance": "none",
+        "backend": "contact_proxy",
+        "success": true,
+        "steps": 63,
+        "score": 0.5819961769539251,
+        "peak_force": 15.0,
+        "lifted": true,
+        "teacher_actions_at_evaluation": 0
+      }
+    ],
+    "paired_gain": 0.0,
+    "gain_per_action": 0.0,
+    "optimizer_steps_per_branch": 48,
+    "update_seconds": 0.6161714909999318,
+    "control_loss": [
+      0.21942032873630524,
+      0.12780094146728516
+    ],
+    "trial_loss": [
+      0.22899451851844788,
+      0.11209004372358322
+    ],
+    "retention_gate": {
+      "control": [
+        {
+          "weight": 1.0,
+          "utility": 0.014675711421772685,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.1160454583516867,
+              "peak_force": 12.964222790088407,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 101,
+              "score": 1.1386142807949822e-08,
+              "peak_force": 15.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.10409020158876077,
+              "peak_force": 0.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 0.3964192758723082,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 50,
+              "score": 0.5830999230935346,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.22908249179034174,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 130,
+              "score": 0.13410672320074515,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.11918883778709,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.6234495306909329,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5570094450468221,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.6073735910685976,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ],
+      "trial": [
+        {
+          "weight": 1.0,
+          "utility": 0.7441399250498484,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 67,
+              "score": 0.5766297674133336,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 85,
+              "score": 0.5854489460056569,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": false,
+              "steps": 95,
+              "score": 2.016232873655488e-05,
+              "peak_force": 15.0,
+              "lifted": false,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.5,
+          "utility": 1.1215619814361433,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 51,
+              "score": 0.6154366438185955,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 53,
+              "score": 0.6028951302716941,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6050979474518607,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.25,
+          "utility": 1.1180361304652822,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 52,
+              "score": 0.6079109065595749,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.5899196684419823,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 55,
+              "score": 0.5727113819776746,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": false,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        },
+        {
+          "weight": 0.0,
+          "utility": 1.1240060098315678,
+          "records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "accepted": true,
+          "baseline_records": [
+            {
+              "seed": 60000,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 54,
+              "score": 0.6121584986495601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60001,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.5989179097880601,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            },
+            {
+              "seed": 60002,
+              "split": "development",
+              "disturbance": "none",
+              "backend": "contact_proxy",
+              "success": true,
+              "steps": 57,
+              "score": 0.6490137390358985,
+              "peak_force": 15.0,
+              "lifted": true,
+              "teacher_actions_at_evaluation": 0
+            }
+          ],
+          "baseline_utility": 1.1240060098315678
+        }
+      ]
+    },
+    "terminal_recovery_success": false,
+    "action_count": 16
+  }
+]

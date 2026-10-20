@@ -1,0 +1,55 @@
+<mujoco model="koral_recovery">
+    <compiler angle="radian" autolimits="true"/>
+    <option timestep="0.002" integrator="implicitfast" gravity="0 0 -9.81"/>
+    <default><joint damping="3" armature="0.08"/>
+      <geom condim="4" friction="0.9 0.005 0.0001" solref="0.006 1"/>
+    </default><worldbody>
+    <light pos="0 0 2"/>
+    <geom name="table" type="box" pos="-0.049147514940400344 0.4598479370288238 0.2548885888896361" size=".24 .20 .02" contype="4" conaffinity="3"/>
+    <body name="base"><geom type="cylinder" pos="0 0 .04" size=".06 .04" contype="0" conaffinity="0"/>
+<body name="link1" gravcomp="1"><joint name="j1" type="hinge" axis="0 0 1" range="-2.8973 2.8973"/>
+<geom type="capsule" fromto="0 0 0 0.0 0 0.333" size=".020" mass=".8" contype="1" conaffinity="6"/>
+<body name="frame1" pos="0.0 0 0.333" quat="1.0 0.0 0 0">
+<body name="link2" gravcomp="1"><joint name="j2" type="hinge" axis="0 0 1" range="-1.7628 1.7628"/>
+<geom type="sphere" size=".023" mass=".35" contype="1" conaffinity="6"/>
+<body name="frame2" pos="0.0 0 0.0" quat="0.7071067811865476 -0.7071067811865475 0 0">
+<body name="link3" gravcomp="1"><joint name="j3" type="hinge" axis="0 0 1" range="-2.8973 2.8973"/>
+<geom type="capsule" fromto="0 0 0 0.0 0 0.316" size=".020" mass=".8" contype="1" conaffinity="6"/>
+<body name="frame3" pos="0.0 0 0.316" quat="0.7071067811865476 0.7071067811865475 0 0">
+<body name="link4" gravcomp="1"><joint name="j4" type="hinge" axis="0 0 1" range="-3.0718 -0.0698"/>
+<geom type="capsule" fromto="0 0 0 0.0825 0 0.0" size=".020" mass=".8" contype="1" conaffinity="6"/>
+<body name="frame4" pos="0.0825 0 0.0" quat="0.7071067811865476 0.7071067811865475 0 0">
+<body name="link5" gravcomp="1"><joint name="j5" type="hinge" axis="0 0 1" range="-2.8973 2.8973"/>
+<geom type="capsule" fromto="0 0 0 -0.0825 0 0.384" size=".020" mass=".8" contype="1" conaffinity="6"/>
+<body name="frame5" pos="-0.0825 0 0.384" quat="0.7071067811865476 -0.7071067811865475 0 0">
+<body name="link6" gravcomp="1"><joint name="j6" type="hinge" axis="0 0 1" range="-0.0175 3.7525"/>
+<geom type="sphere" size=".023" mass=".35" contype="1" conaffinity="6"/>
+<body name="frame6" pos="0.0 0 0.0" quat="0.7071067811865476 0.7071067811865475 0 0">
+<body name="link7" gravcomp="1"><joint name="j7" type="hinge" axis="0 0 1" range="-2.8973 2.8973"/>
+<geom type="capsule" fromto="0 0 0 0.088 0 0.107" size=".020" mass=".8" contype="1" conaffinity="6"/>
+<body name="frame7" pos="0.088 0 0.107" quat="0.7071067811865476 0.7071067811865475 0 0">
+<body name="hand" quat="0.18227203569149997 -0.8116840622651968 0.44342502418199925 -0.33364672334482437" gravcomp="1"><site name="tcp" pos="0 0 0" size=".005"/>
+<geom name="palm" type="box" pos="0 0 .055" size=".035 .045 .015" mass=".15" contype="1" conaffinity="6"/>
+<body name="left_finger" gravcomp="1">
+            <joint name="left_slide" type="slide" axis="0 1 0" range=".008 .04" damping="1" armature=".002"/>
+            <geom name="left_pad" type="box" pos="0 0.009 0" size=".025 .009 .026" mass=".045" contype="1" conaffinity="6"/>
+            </body>
+<body name="right_finger" gravcomp="1">
+            <joint name="right_slide" type="slide" axis="0 -1 0" range=".008 .04" damping="1" armature=".002"/>
+            <geom name="right_pad" type="box" pos="0 -0.009 0" size=".025 .009 .026" mass=".045" contype="1" conaffinity="6"/>
+            </body>
+</body></body></body></body></body></body></body></body></body></body></body></body></body></body></body></body>
+<body name="object" pos="-0.07914751494040034 0.4598479370288238 0.29188858888963615">
+        <freejoint name="object_free"/><geom name="object_geom" type="sphere" size=".017" mass=".06" contype="2" conaffinity="5"/></body>
+        <site name="goal" pos="-0.004147514940400346 0.41484793702882383 0.29188858888963615" size=".025"/>
+        </worldbody><actuator>
+<position name="servo1" joint="j1" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo2" joint="j2" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo3" joint="j3" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo4" joint="j4" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo5" joint="j5" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo6" joint="j6" kp="350" kv="35" forcerange="-87 87"/>
+<position name="servo7" joint="j7" kp="350" kv="35" forcerange="-87 87"/>
+<position joint="left_slide" kp="400" kv="8" forcerange="-15 15"/>
+<position joint="right_slide" kp="400" kv="8" forcerange="-15 15"/>
+</actuator></mujoco>

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "package_version": "0.3.0",
+  "isolated_wheel_import": true,
+  "loaded_packaged_local_checkpoint": true,
+  "executed_action": [
+    -0.2546355128288269,
+    0.8497830033302307,
+    -0.9998575448989868,
+    1.0
+  ],
+  "observation_shape": [
+    32
+  ]
+}

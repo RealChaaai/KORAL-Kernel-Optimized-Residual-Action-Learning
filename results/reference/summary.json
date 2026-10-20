@@ -1,0 +1,1094 @@
+{
+  "reference": {
+    "test": {
+      "methods": {
+        "bc": {
+          "successes": 54,
+          "episodes": 60,
+          "success_rate": 0.9,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 64.26666666666667,
+          "mean_success_seconds": 2.278518518518519
+        },
+        "random": {
+          "successes": 47,
+          "episodes": 60,
+          "success_rate": 0.7833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 13,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 74.08333333333333,
+          "mean_success_seconds": 2.3446808510638295
+        },
+        "uncertainty": {
+          "successes": 53,
+          "episodes": 60,
+          "success_rate": 0.8833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 63.63333333333333,
+          "mean_success_seconds": 2.1947169811320753
+        },
+        "gain": {
+          "successes": 48,
+          "episodes": 60,
+          "success_rate": 0.8,
+          "per_training_seed": {
+            "0": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 13,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 72.45,
+          "mean_success_seconds": 2.3225000000000002
+        },
+        "no_sequence": {
+          "successes": 52,
+          "episodes": 60,
+          "success_rate": 0.8666666666666667,
+          "per_training_seed": {
+            "0": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 64.75,
+          "mean_success_seconds": 2.2053846153846157
+        },
+        "koral": {
+          "successes": 58,
+          "episodes": 60,
+          "success_rate": 0.9666666666666667,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 57.833333333333336,
+          "mean_success_seconds": 2.2137931034482765
+        },
+        "no_recovery": {
+          "successes": 59,
+          "episodes": 60,
+          "success_rate": 0.9833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 56.65,
+          "mean_success_seconds": 2.216271186440678
+        },
+        "no_affine": {
+          "successes": 55,
+          "episodes": 60,
+          "success_rate": 0.9166666666666666,
+          "per_training_seed": {
+            "0": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 19,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 62.2,
+          "mean_success_seconds": 2.2421818181818183
+        },
+        "no_support": {
+          "successes": 59,
+          "episodes": 60,
+          "success_rate": 0.9833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 57.61666666666667,
+          "mean_success_seconds": 2.2555932203389832
+        },
+        "retrieval": {
+          "successes": 5,
+          "episodes": 60,
+          "success_rate": 0.08333333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 1,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 2,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 2,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 123.71666666666667,
+          "mean_success_seconds": 2.184
+        },
+        "local_action": {
+          "successes": 53,
+          "episodes": 60,
+          "success_rate": 0.8833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 17,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 18,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 63.56666666666667,
+          "mean_success_seconds": 2.1916981132075475
+        }
+      },
+      "koral_minus": {
+        "bc": {
+          "difference": 0.06666666666666667,
+          "crossed_bootstrap_95": [
+            -0.03333333333333333,
+            0.21666666666666667
+          ],
+          "paired_wins": 5,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.0,
+            0.05,
+            0.15
+          ]
+        },
+        "random": {
+          "difference": 0.18333333333333332,
+          "crossed_bootstrap_95": [
+            0.03333333333333333,
+            0.36666666666666664
+          ],
+          "paired_wins": 12,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.15,
+            0.25,
+            0.15
+          ]
+        },
+        "uncertainty": {
+          "difference": 0.08333333333333333,
+          "crossed_bootstrap_95": [
+            -0.016666666666666666,
+            0.21666666666666667
+          ],
+          "paired_wins": 6,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.05,
+            0.05,
+            0.15
+          ]
+        },
+        "gain": {
+          "difference": 0.16666666666666666,
+          "crossed_bootstrap_95": [
+            0.03333333333333333,
+            0.35
+          ],
+          "paired_wins": 11,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.1,
+            0.25,
+            0.15
+          ]
+        },
+        "no_sequence": {
+          "difference": 0.1,
+          "crossed_bootstrap_95": [
+            -0.016666666666666666,
+            0.23333333333333334
+          ],
+          "paired_wins": 7,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.1,
+            0.05,
+            0.15
+          ]
+        },
+        "no_recovery": {
+          "difference": -0.016666666666666666,
+          "crossed_bootstrap_95": [
+            -0.1,
+            0.0
+          ],
+          "paired_wins": 0,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.0,
+            -0.05,
+            0.0
+          ]
+        },
+        "no_affine": {
+          "difference": 0.05,
+          "crossed_bootstrap_95": [
+            -0.05,
+            0.18333333333333332
+          ],
+          "paired_wins": 4,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        },
+        "no_support": {
+          "difference": -0.016666666666666666,
+          "crossed_bootstrap_95": [
+            -0.1,
+            0.0
+          ],
+          "paired_wins": 0,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.0,
+            -0.05,
+            0.0
+          ]
+        },
+        "retrieval": {
+          "difference": 0.8833333333333333,
+          "crossed_bootstrap_95": [
+            0.7166666666666667,
+            1.0
+          ],
+          "paired_wins": 53,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.95,
+            0.8,
+            0.9
+          ]
+        },
+        "local_action": {
+          "difference": 0.08333333333333333,
+          "crossed_bootstrap_95": [
+            -0.05,
+            0.23333333333333334
+          ],
+          "paired_wins": 6,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.15,
+            0.0,
+            0.1
+          ]
+        }
+      }
+    },
+    "stress": {
+      "methods": {
+        "bc": {
+          "successes": 47,
+          "episodes": 60,
+          "success_rate": 0.7833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 16,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 12,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 73.0,
+          "mean_success_seconds": 2.3021276595744684
+        },
+        "random": {
+          "successes": 38,
+          "episodes": 60,
+          "success_rate": 0.6333333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 16,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 10,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 12,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 83.91666666666667,
+          "mean_success_seconds": 2.3052631578947373
+        },
+        "uncertainty": {
+          "successes": 42,
+          "episodes": 60,
+          "success_rate": 0.7,
+          "per_training_seed": {
+            "0": {
+              "successes": 15,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 15,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 12,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 77.28333333333333,
+          "mean_success_seconds": 2.201904761904762
+        },
+        "gain": {
+          "successes": 37,
+          "episodes": 60,
+          "success_rate": 0.6166666666666667,
+          "per_training_seed": {
+            "0": {
+              "successes": 15,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 10,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 12,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 84.68333333333334,
+          "mean_success_seconds": 2.2767567567567575
+        },
+        "no_sequence": {
+          "successes": 40,
+          "episodes": 60,
+          "success_rate": 0.6666666666666666,
+          "per_training_seed": {
+            "0": {
+              "successes": 15,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 13,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 12,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 79.8,
+          "mean_success_seconds": 2.2030000000000003
+        },
+        "koral": {
+          "successes": 58,
+          "episodes": 60,
+          "success_rate": 0.9666666666666667,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 58.88333333333333,
+          "mean_success_seconds": 2.2572413793103445
+        },
+        "no_recovery": {
+          "successes": 58,
+          "episodes": 60,
+          "success_rate": 0.9666666666666667,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 59.36666666666667,
+          "mean_success_seconds": 2.277241379310345
+        },
+        "no_affine": {
+          "successes": 53,
+          "episodes": 60,
+          "success_rate": 0.8833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 16,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 19,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 65.41666666666667,
+          "mean_success_seconds": 2.2754716981132073
+        },
+        "no_support": {
+          "successes": 59,
+          "episodes": 60,
+          "success_rate": 0.9833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 20,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 19,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 20,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 58.3,
+          "mean_success_seconds": 2.2833898305084754
+        },
+        "retrieval": {
+          "successes": 23,
+          "episodes": 60,
+          "success_rate": 0.38333333333333336,
+          "per_training_seed": {
+            "0": {
+              "successes": 7,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 8,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 8,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 101.26666666666667,
+          "mean_success_seconds": 2.2017391304347824
+        },
+        "local_action": {
+          "successes": 51,
+          "episodes": 60,
+          "success_rate": 0.85,
+          "per_training_seed": {
+            "0": {
+              "successes": 18,
+              "episodes": 20
+            },
+            "1": {
+              "successes": 16,
+              "episodes": 20
+            },
+            "2": {
+              "successes": 17,
+              "episodes": 20
+            }
+          },
+          "mean_steps_all_episodes": 66.51666666666667,
+          "mean_success_seconds": 2.2125490196078434
+        }
+      },
+      "koral_minus": {
+        "bc": {
+          "difference": 0.18333333333333332,
+          "crossed_bootstrap_95": [
+            0.0,
+            0.45
+          ],
+          "paired_wins": 12,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.05,
+            0.1,
+            0.4
+          ]
+        },
+        "random": {
+          "difference": 0.3333333333333333,
+          "crossed_bootstrap_95": [
+            0.13333333333333333,
+            0.55
+          ],
+          "paired_wins": 21,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.2,
+            0.4,
+            0.4
+          ]
+        },
+        "uncertainty": {
+          "difference": 0.26666666666666666,
+          "crossed_bootstrap_95": [
+            0.06666666666666667,
+            0.48333333333333334
+          ],
+          "paired_wins": 17,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.25,
+            0.15,
+            0.4
+          ]
+        },
+        "gain": {
+          "difference": 0.35,
+          "crossed_bootstrap_95": [
+            0.15,
+            0.55
+          ],
+          "paired_wins": 22,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.25,
+            0.4,
+            0.4
+          ]
+        },
+        "no_sequence": {
+          "difference": 0.3,
+          "crossed_bootstrap_95": [
+            0.1,
+            0.5166666666666667
+          ],
+          "paired_wins": 19,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.25,
+            0.25,
+            0.4
+          ]
+        },
+        "no_recovery": {
+          "difference": 0.0,
+          "crossed_bootstrap_95": [
+            -0.06666666666666667,
+            0.06666666666666667
+          ],
+          "paired_wins": 1,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "no_affine": {
+          "difference": 0.08333333333333333,
+          "crossed_bootstrap_95": [
+            -0.016666666666666666,
+            0.21666666666666667
+          ],
+          "paired_wins": 6,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.1,
+            0.1,
+            0.05
+          ]
+        },
+        "no_support": {
+          "difference": -0.016666666666666666,
+          "crossed_bootstrap_95": [
+            -0.1,
+            0.0
+          ],
+          "paired_wins": 0,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.0,
+            -0.05,
+            0.0
+          ]
+        },
+        "retrieval": {
+          "difference": 0.5833333333333334,
+          "crossed_bootstrap_95": [
+            0.38333333333333336,
+            0.7833333333333333
+          ],
+          "paired_wins": 35,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.65,
+            0.5,
+            0.6
+          ]
+        },
+        "local_action": {
+          "difference": 0.11666666666666667,
+          "crossed_bootstrap_95": [
+            0.0,
+            0.25
+          ],
+          "paired_wins": 7,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.1,
+            0.1,
+            0.15
+          ]
+        }
+      }
+    }
+  },
+  "confirmation": {
+    "test": {
+      "methods": {
+        "bc": {
+          "successes": 154,
+          "episodes": 180,
+          "success_rate": 0.8555555555555555,
+          "per_training_seed": {
+            "0": {
+              "successes": 53,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 51,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 50,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 66.95555555555555,
+          "mean_success_seconds": 2.2529870129870133
+        },
+        "koral": {
+          "successes": 172,
+          "episodes": 180,
+          "success_rate": 0.9555555555555556,
+          "per_training_seed": {
+            "0": {
+              "successes": 58,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 54,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 60,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 60.03888888888889,
+          "mean_success_seconds": 2.27139534883721
+        },
+        "no_recovery": {
+          "successes": 172,
+          "episodes": 180,
+          "success_rate": 0.9555555555555556,
+          "per_training_seed": {
+            "0": {
+              "successes": 58,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 57,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 57,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 59.76111111111111,
+          "mean_success_seconds": 2.2676744186046514
+        },
+        "retrieval": {
+          "successes": 31,
+          "episodes": 180,
+          "success_rate": 0.17222222222222222,
+          "per_training_seed": {
+            "0": {
+              "successes": 11,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 9,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 11,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 117.39444444444445,
+          "mean_success_seconds": 2.2722580645161288
+        },
+        "local_action": {
+          "successes": 162,
+          "episodes": 180,
+          "success_rate": 0.9,
+          "per_training_seed": {
+            "0": {
+              "successes": 53,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 55,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 54,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 61.87777777777778,
+          "mean_success_seconds": 2.198024691358025
+        }
+      },
+      "koral_minus": {
+        "bc": {
+          "difference": 0.1,
+          "crossed_bootstrap_95": [
+            0.022222222222222223,
+            0.2
+          ],
+          "paired_wins": 19,
+          "paired_losses": 1,
+          "per_seed_difference": [
+            0.08333333333333333,
+            0.05,
+            0.16666666666666666
+          ]
+        },
+        "no_recovery": {
+          "difference": 0.0,
+          "crossed_bootstrap_95": [
+            -0.06111111111111111,
+            0.05555555555555555
+          ],
+          "paired_wins": 3,
+          "paired_losses": 3,
+          "per_seed_difference": [
+            0.0,
+            -0.05,
+            0.05
+          ]
+        },
+        "retrieval": {
+          "difference": 0.7833333333333333,
+          "crossed_bootstrap_95": [
+            0.6833333333333333,
+            0.8777777777777778
+          ],
+          "paired_wins": 141,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.7833333333333333,
+            0.75,
+            0.8166666666666667
+          ]
+        },
+        "local_action": {
+          "difference": 0.05555555555555555,
+          "crossed_bootstrap_95": [
+            -0.027777777777777776,
+            0.15
+          ],
+          "paired_wins": 15,
+          "paired_losses": 5,
+          "per_seed_difference": [
+            0.08333333333333333,
+            -0.016666666666666666,
+            0.1
+          ]
+        }
+      }
+    },
+    "stress": {
+      "methods": {
+        "bc": {
+          "successes": 163,
+          "episodes": 180,
+          "success_rate": 0.9055555555555556,
+          "per_training_seed": {
+            "0": {
+              "successes": 57,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 55,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 51,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 63.855555555555554,
+          "mean_success_seconds": 2.278282208588957
+        },
+        "koral": {
+          "successes": 178,
+          "episodes": 180,
+          "success_rate": 0.9888888888888889,
+          "per_training_seed": {
+            "0": {
+              "successes": 59,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 59,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 60,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 56.361111111111114,
+          "mean_success_seconds": 2.2213483146067414
+        },
+        "no_recovery": {
+          "successes": 177,
+          "episodes": 180,
+          "success_rate": 0.9833333333333333,
+          "per_training_seed": {
+            "0": {
+              "successes": 59,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 58,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 60,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 56.977777777777774,
+          "mean_success_seconds": 2.229604519774011
+        },
+        "retrieval": {
+          "successes": 101,
+          "episodes": 180,
+          "success_rate": 0.5611111111111111,
+          "per_training_seed": {
+            "0": {
+              "successes": 32,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 36,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 33,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 87.62222222222222,
+          "mean_success_seconds": 2.184950495049505
+        },
+        "local_action": {
+          "successes": 172,
+          "episodes": 180,
+          "success_rate": 0.9555555555555556,
+          "per_training_seed": {
+            "0": {
+              "successes": 57,
+              "episodes": 60
+            },
+            "1": {
+              "successes": 57,
+              "episodes": 60
+            },
+            "2": {
+              "successes": 58,
+              "episodes": 60
+            }
+          },
+          "mean_steps_all_episodes": 58.916666666666664,
+          "mean_success_seconds": 2.231860465116279
+        }
+      },
+      "koral_minus": {
+        "bc": {
+          "difference": 0.08333333333333333,
+          "crossed_bootstrap_95": [
+            0.016666666666666666,
+            0.17222222222222222
+          ],
+          "paired_wins": 15,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.03333333333333333,
+            0.06666666666666667,
+            0.15
+          ]
+        },
+        "no_recovery": {
+          "difference": 0.005555555555555556,
+          "crossed_bootstrap_95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "paired_wins": 1,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.0,
+            0.016666666666666666,
+            0.0
+          ]
+        },
+        "retrieval": {
+          "difference": 0.42777777777777776,
+          "crossed_bootstrap_95": [
+            0.30541666666666667,
+            0.55
+          ],
+          "paired_wins": 77,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.45,
+            0.38333333333333336,
+            0.45
+          ]
+        },
+        "local_action": {
+          "difference": 0.03333333333333333,
+          "crossed_bootstrap_95": [
+            0.0,
+            0.07777777777777778
+          ],
+          "paired_wins": 6,
+          "paired_losses": 0,
+          "per_seed_difference": [
+            0.03333333333333333,
+            0.03333333333333333,
+            0.03333333333333333
+          ]
+        }
+      }
+    }
+  }
+}

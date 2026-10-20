@@ -1,0 +1,7 @@
+..........................................sss........................... [ 70%]
+..............................                                           [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_physics_adapter.py:25: could not import 'mujoco': No module named 'mujoco'
+SKIPPED [1] tests/test_physics_adapter.py:32: could not import 'mujoco': No module named 'mujoco'
+SKIPPED [1] tests/test_physics_adapter.py:39: could not import 'mujoco': No module named 'mujoco'
+99 passed, 3 skipped in 3.31s

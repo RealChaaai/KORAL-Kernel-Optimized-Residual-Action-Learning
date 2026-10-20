@@ -1,0 +1,32 @@
+{
+  "limit": 64,
+  "expert_actions": 55,
+  "expert_calls": 4,
+  "environment_steps": 55,
+  "acquisition_steps": 161,
+  "development_steps": 8337,
+  "optimizer_steps": 330,
+  "events": [
+    {
+      "candidate_id": 20,
+      "requested": 16,
+      "charged": 16
+    },
+    {
+      "candidate_id": 7,
+      "requested": 16,
+      "charged": 7
+    },
+    {
+      "candidate_id": 22,
+      "requested": 16,
+      "charged": 16
+    },
+    {
+      "candidate_id": 19,
+      "requested": 16,
+      "charged": 16
+    }
+  ],
+  "wall_seconds": 10.183798358999866
+}

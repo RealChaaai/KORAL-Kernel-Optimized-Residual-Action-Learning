@@ -1,0 +1,41 @@
+{
+  "backend": "contact_proxy",
+  "demos": 30,
+  "initial_steps": 500,
+  "label_budget": 64,
+  "pool_episodes": 3,
+  "candidate_stride": 6,
+  "lengths": [
+    16
+  ],
+  "development_episodes": 6,
+  "horizon": 130,
+  "chunk_horizon": 8,
+  "train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_episodes": 20,
+  "confirmation_episodes": 60,
+  "local": {
+    "neighbors": 24,
+    "ridge": 0.02,
+    "slope_penalty": 4.0,
+    "support_radius": 3.0,
+    "bandwidth_floor": 0.03,
+    "strength": 1.0,
+    "max_residual": 2.0,
+    "regression": "affine",
+    "target": "residual",
+    "support_gate": true
+  },
+  "confirmation_methods": [
+    "bc",
+    "koral",
+    "no_recovery",
+    "retrieval",
+    "local_action"
+  ],
+  "algorithm": "local_recovery"
+}

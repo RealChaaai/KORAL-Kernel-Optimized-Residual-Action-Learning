@@ -1,0 +1,37 @@
+{
+  "limit": 64,
+  "expert_actions": 55,
+  "expert_calls": 4,
+  "environment_steps": 55,
+  "acquisition_steps": 161,
+  "development_steps": 10892,
+  "optimizer_steps": 0,
+  "events": [
+    {
+      "candidate_id": 20,
+      "requested": 16,
+      "charged": 16
+    },
+    {
+      "candidate_id": 7,
+      "requested": 16,
+      "charged": 7
+    },
+    {
+      "candidate_id": 22,
+      "requested": 16,
+      "charged": 16
+    },
+    {
+      "candidate_id": 19,
+      "requested": 16,
+      "charged": 16
+    }
+  ],
+  "wall_seconds": 14.105193326000062,
+  "network_optimizer_steps": 0,
+  "accepted_segments": 3,
+  "memory_rows": 1415,
+  "prior_weight_sha256": "5f41fe8998310e4a03133a4763b82117d8f288b959a62d89b29047cc3118147f",
+  "development_rollouts": 192
+}

@@ -1,0 +1,25 @@
+{
+  "demonstrations_regenerated": 30,
+  "exact_demonstration_matches": 30,
+  "priors": [
+    {
+      "seed": 0,
+      "regenerated_sha256": "dba41b566964691699b0ab0125a87bb6eb321a47dbaef43b8cc402a0f92800bc",
+      "stored_sha256": "dba41b566964691699b0ab0125a87bb6eb321a47dbaef43b8cc402a0f92800bc",
+      "exact_match": true
+    },
+    {
+      "seed": 1,
+      "regenerated_sha256": "7d1c500ec31e86d3c95e6af55bc10135f7f7e025eddb9887dd2afce2d68e983a",
+      "stored_sha256": "7d1c500ec31e86d3c95e6af55bc10135f7f7e025eddb9887dd2afce2d68e983a",
+      "exact_match": true
+    },
+    {
+      "seed": 2,
+      "regenerated_sha256": "5f41fe8998310e4a03133a4763b82117d8f288b959a62d89b29047cc3118147f",
+      "stored_sha256": "5f41fe8998310e4a03133a4763b82117d8f288b959a62d89b29047cc3118147f",
+      "exact_match": true
+    }
+  ],
+  "passed": true
+}

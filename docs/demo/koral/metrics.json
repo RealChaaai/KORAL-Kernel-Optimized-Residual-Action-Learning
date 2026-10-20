@@ -1,0 +1,19 @@
+{
+  "seed": 99011,
+  "split": "development",
+  "disturbance": "low_friction",
+  "backend": "contact_proxy",
+  "success": true,
+  "steps": 49,
+  "score": 0.5460843771491302,
+  "peak_force": 15.0,
+  "lifted": true,
+  "teacher_actions_at_evaluation": 0,
+  "goal": [
+    -0.006519908008626736,
+    0.410487932501469,
+    0.29188858888963615
+  ],
+  "controller": "policy",
+  "checkpoint_sha256": "fcc43ba35e2cfa3369adb6364cd40ce2860ce9a6c4166c172e09ab6d2e5b9697"
+}

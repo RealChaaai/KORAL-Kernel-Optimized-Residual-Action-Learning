@@ -1,0 +1,359 @@
+[
+  {
+    "seed": 0,
+    "mode": "bc",
+    "radius": 0,
+    "ridge": 0,
+    "results": [
+      [
+        8,
+        0.6104
+      ],
+      [
+        7,
+        0.5786
+      ]
+    ],
+    "seconds": 1.4631480669999917
+  },
+  {
+    "seed": 0,
+    "mode": "residual",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.6237
+      ],
+      [
+        8,
+        0.6473
+      ]
+    ],
+    "seconds": 1.161251601999993
+  },
+  {
+    "seed": 0,
+    "mode": "direct",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        1,
+        0.2649
+      ],
+      [
+        4,
+        0.456
+      ]
+    ],
+    "seconds": 2.117039964000014
+  },
+  {
+    "seed": 0,
+    "mode": "residual",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.6429
+      ],
+      [
+        8,
+        0.6426
+      ]
+    ],
+    "seconds": 1.071606715999991
+  },
+  {
+    "seed": 0,
+    "mode": "direct",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        7,
+        0.5627
+      ],
+      [
+        8,
+        0.6395
+      ]
+    ],
+    "seconds": 1.220156352999993
+  },
+  {
+    "seed": 0,
+    "mode": "residual",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        8,
+        0.6316
+      ],
+      [
+        8,
+        0.6387
+      ]
+    ],
+    "seconds": 1.1038783469999771
+  },
+  {
+    "seed": 0,
+    "mode": "direct",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        8,
+        0.6288
+      ],
+      [
+        8,
+        0.631
+      ]
+    ],
+    "seconds": 1.0954569849999984
+  },
+  {
+    "seed": 1,
+    "mode": "bc",
+    "radius": 0,
+    "ridge": 0,
+    "results": [
+      [
+        7,
+        0.5442
+      ],
+      [
+        8,
+        0.6144
+      ]
+    ],
+    "seconds": 0.9185600170000043
+  },
+  {
+    "seed": 1,
+    "mode": "residual",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        7,
+        0.5749
+      ],
+      [
+        8,
+        0.6414
+      ]
+    ],
+    "seconds": 1.1785710199999926
+  },
+  {
+    "seed": 1,
+    "mode": "direct",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        1,
+        0.2649
+      ],
+      [
+        4,
+        0.456
+      ]
+    ],
+    "seconds": 2.1304417820000197
+  },
+  {
+    "seed": 1,
+    "mode": "residual",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        7,
+        0.5816
+      ],
+      [
+        8,
+        0.6368
+      ]
+    ],
+    "seconds": 1.2037718690000077
+  },
+  {
+    "seed": 1,
+    "mode": "direct",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.6247
+      ],
+      [
+        8,
+        0.6468
+      ]
+    ],
+    "seconds": 1.0680391210000266
+  },
+  {
+    "seed": 1,
+    "mode": "residual",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        7,
+        0.5731
+      ],
+      [
+        8,
+        0.6324
+      ]
+    ],
+    "seconds": 1.1982745100000045
+  },
+  {
+    "seed": 1,
+    "mode": "direct",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        7,
+        0.5555
+      ],
+      [
+        8,
+        0.6327
+      ]
+    ],
+    "seconds": 1.1952627089999908
+  },
+  {
+    "seed": 2,
+    "mode": "bc",
+    "radius": 0,
+    "ridge": 0,
+    "results": [
+      [
+        8,
+        0.6178
+      ],
+      [
+        8,
+        0.599
+      ]
+    ],
+    "seconds": 0.8563770979999958
+  },
+  {
+    "seed": 2,
+    "mode": "residual",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.6448
+      ],
+      [
+        8,
+        0.6455
+      ]
+    ],
+    "seconds": 1.1079116429999942
+  },
+  {
+    "seed": 2,
+    "mode": "direct",
+    "radius": 0,
+    "ridge": 0.02,
+    "results": [
+      [
+        1,
+        0.2649
+      ],
+      [
+        4,
+        0.456
+      ]
+    ],
+    "seconds": 2.0346409379999955
+  },
+  {
+    "seed": 2,
+    "mode": "residual",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.621
+      ],
+      [
+        8,
+        0.629
+      ]
+    ],
+    "seconds": 1.2019276469999909
+  },
+  {
+    "seed": 2,
+    "mode": "direct",
+    "radius": 2,
+    "ridge": 0.02,
+    "results": [
+      [
+        8,
+        0.6355
+      ],
+      [
+        8,
+        0.6438
+      ]
+    ],
+    "seconds": 1.1940314590000014
+  },
+  {
+    "seed": 2,
+    "mode": "residual",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        8,
+        0.6201
+      ],
+      [
+        8,
+        0.6329
+      ]
+    ],
+    "seconds": 1.0360207900000091
+  },
+  {
+    "seed": 2,
+    "mode": "direct",
+    "radius": 4,
+    "ridge": 0.1,
+    "results": [
+      [
+        8,
+        0.6306
+      ],
+      [
+        8,
+        0.6318
+      ]
+    ],
+    "seconds": 1.0650913079999782
+  }
+]

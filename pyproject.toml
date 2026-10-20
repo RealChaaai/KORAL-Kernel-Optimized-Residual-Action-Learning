@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koral-robotics"
+version = "0.3.0"
+description = "Support-gated local residual learning for robotic manipulation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "KORAL Contributors"}]
+dependencies = ["numpy>=1.24,<3", "torch>=2.2"]
+
+[project.optional-dependencies]
+fast = ["numba>=0.59"]
+physics = ["mujoco==3.3.7"]
+viz = ["matplotlib>=3.7", "pillow>=9", "imageio>=2.28"]
+test = ["pytest>=7.4"]
+all = ["numba>=0.59", "mujoco==3.3.7", "matplotlib>=3.7", "pillow>=9", "imageio>=2.28", "pytest>=7.4"]
+
+[project.scripts]
+koral = "koral.recovery.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["koral*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["physics: requires actual MuJoCo execution"]

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "JavaScript syntax",
+    "initial projection and canvas drawing",
+    "self-contained embedded trajectory data"
+  ]
+}

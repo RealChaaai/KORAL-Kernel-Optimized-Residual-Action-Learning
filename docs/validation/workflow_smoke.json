@@ -1,0 +1,22 @@
+{
+  "wall_seconds": 16.903261339999972,
+  "audit": {
+    "passed": true,
+    "evaluation_episodes": 32,
+    "successful_episodes": 1,
+    "paired_local_credit_records": 1,
+    "charged_local_expert_actions": 8,
+    "checks": [
+      "frozen code and checkpoint hashes",
+      "unique paired episode keys",
+      "unchanged base neural weights",
+      "training-only memory provenance",
+      "exact expert-action accounting",
+      "disjoint development credit and retention",
+      "zero test-time expert actions",
+      "finite bounded actions",
+      "success recomputed from recorded physical states",
+      "same task horizon"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independently_regenerated_episodes": 960,
+  "methods": [
+    "bc",
+    "koral"
+  ],
+  "banks": [
+    "reference",
+    "confirmation"
+  ]
+}

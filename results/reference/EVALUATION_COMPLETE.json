@@ -1,0 +1,16 @@
+{
+  "episodes": 3120,
+  "methods": [
+    "bc",
+    "random",
+    "uncertainty",
+    "gain",
+    "no_sequence",
+    "koral",
+    "no_recovery",
+    "no_affine",
+    "no_support",
+    "retrieval",
+    "local_action"
+  ]
+}

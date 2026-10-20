@@ -6,9 +6,17 @@ Support-gated local residual learning for robotic manipulation.
 
 [中文说明](README_CN.md) · [Method](docs/METHOD.md) · [Experiments](docs/EXPERIMENTS.md) · [Installation](docs/INSTALL.md)
 
-![Matched manipulation replay](docs/demo/comparison.gif)
+## Interactive Demonstration
 
-[Offline interactive replay](docs/demo/replay.html) · [BC recording](docs/demo/bc/demo.gif) · [KORAL recording](docs/demo/koral/demo.gif)
+[![KORAL policy comparison](docs/demo/comparison.gif)](https://realchaaai.github.io/KORAL-Kernel-Optimized-Residual-Action-Learning/demo/replay.html)
+
+**[▶ Open Interactive Demo](https://realchaaai.github.io/KORAL-Kernel-Optimized-Residual-Action-Learning/demo/replay.html)**
+
+Compare behavior cloning and KORAL in the same manipulation scenario.
+Drag to rotate the view, play or pause the replay, and use the timeline
+to inspect the recorded motion.
+
+[HTML source](docs/demo/replay.html) · [BC recording](docs/demo/bc/demo.gif) · [KORAL recording](docs/demo/koral/demo.gif)
 
 ## Overview
 
